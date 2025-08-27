@@ -1,6 +1,6 @@
 services:
   google-find-my-tools:
-    image: ghcr.io/txitxo0/googlefindmytools-homeassistant:latest
+    image: ghcr.io/oat1/googlefindmytools-homeassistant:latest
     container_name: google-find-my-tools
     restart: unless-stopped
     volumes:
